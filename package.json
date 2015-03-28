@@ -1,0 +1,32 @@
+{
+  "name": "epistream-client",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/nswarr/epistream-client",
+  "bugs": {
+    "url": "https://github.com/nswarr/epistream-client/issues"
+  },
+  "license": "MIT",
+  "author": "Nick Swarr <nswarr@glgoup.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswarr/epistream-client"
+  },
+  "devDependencies": {
+    "express": "4.12.3",
+    "express-ws": "0.2.5"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "awesocket": "github:nswarr/awesocket@0.0.2",
+      "simplog": "npm:simplog@^0.1.0",
+      "wolfy87-eventemitter": "npm:wolfy87-eventemitter@^4.2.11"
+    },
+    "devDependencies": {
+      "babel": "npm:babel@^4.7.16",
+      "babel-runtime": "npm:babel-runtime@^4.7.16"
+    }
+  }
+}
